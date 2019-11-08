@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * 运行项目后 访问http://localhost:8080/swagger-ui.html
+ * 运行项目后 访问http://localhost:8888/swagger/swagger-ui.html
  */
 @SpringBootApplication
 public class SwaggerApplication {

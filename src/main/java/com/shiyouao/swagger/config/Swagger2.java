@@ -12,7 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @Author sya
- * @Date 2019/1/17
+ * @Date 2019/11/07
  */
 @Configuration
 @EnableSwagger2
@@ -30,8 +30,8 @@ public class Swagger2 {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("springboot利用swagger构建api文档")
-                .description("简单优雅的restfun风格，http://mail.qq.com/cgi-bin/frame_html")
-                .termsOfServiceUrl("http://mail.qq.com/cgi-bin/frame_html")
+                .description("简单优雅的restfun风格，https://blog.csdn.net/master_02")
+                .termsOfServiceUrl("https://blog.csdn.net/master_02")
                 .version("1.0")
                 .build();
     }

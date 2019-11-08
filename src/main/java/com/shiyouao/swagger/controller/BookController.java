@@ -11,14 +11,13 @@ import java.util.*;
 
 /**
  * @Author sya
- * @Date 2019/1/17
+ * @Date 2019/11/7
  *
  * 用户创建某本图书	POST	/books/
  * 用户修改对某本图书	PUT	/books/:id/
  * 用户删除对某本图书	DELETE	/books/:id/
  * 用户获取所有的图书 GET /books
  *  用户获取某一图书  GET /Books/:id
- * Created by fangzhipeng on 2017/4/17.
  * 官方文档：http://swagger.io/docs/specification/api-host-and-base-path/
  * Swagger使用的注解及其说明：
 
@@ -73,7 +72,7 @@ public class BookController {
      * @return
      */
     @ApiOperation(value="获取图书列表", notes="获取图书列表")
-    @RequestMapping(value={""}, method= RequestMethod.GET)
+    @RequestMapping(value={"/getBook"}, method= RequestMethod.GET)
     public List<Book> getBook() {
         List<Book> book = new ArrayList<>(books.values());
         return book;

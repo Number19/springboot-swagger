@@ -1,0 +1,6 @@
+server:
+  servlet:
+    ## 项目上下文名称
+    context-path: /swagger
+  ### 自定义端口
+  port: 8888
